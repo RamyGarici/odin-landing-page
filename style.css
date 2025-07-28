@@ -1,6 +1,7 @@
 *{
     color: #F9FAF8;
     font-size: 18px;
+    font-family: 'Roboto';
 
 }
 
@@ -132,5 +133,57 @@ p{
 }
 
 .quote-container{
-    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e5e7eb;
+    padding: 50px;
+
+  
 }
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    align-self: flex-end;
+    padding-right: 20px;
+    
+}
+.quote{
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    font-size: 36px;
+    padding-right: 20px;
+}
+ .call{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+ }
+ .call-box{
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 15px;
+    margin: 120px;
+    padding: 60px;
+ }
+
+ .call-title{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+
+ }
+ .call-p{
+    font-style: italic;
+    font-weight: 300;
+    color: white;
+    font-size: 36px;
+    margin: 0;
+ }
+ 
