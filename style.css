@@ -165,12 +165,16 @@ h2{
     align-items: center;
  }
  .call-box{
+    display: flex;
     background-color: #3882F6;
     width: 100%;
     border-radius: 15px;
     margin: 120px;
-    padding: 60px;
+    padding: 100px;
+    justify-content: space-between;
  }
+
+   
 
  .call-title{
     color: white;
@@ -185,5 +189,11 @@ h2{
     color: white;
     font-size: 36px;
     margin: 0;
+ }
+
+
+ .call-btn{
+    
+    border:2px solid white;
  }
  
